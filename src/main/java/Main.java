@@ -11,10 +11,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Configurator.setRootLevel(Level.ERROR);
+//        Configurator.setRootLevel(Level.ERROR);
 
         try {
-            Lion lion = new Lion("Лёва", 10);
+            Lion lion = new Lion("Лёва", -10);
         } catch (AgeException e) {
 
             log.error("Ошибка", e);
